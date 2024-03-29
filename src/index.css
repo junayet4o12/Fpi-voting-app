@@ -6,6 +6,15 @@
 @tailwind utilities;
 
 
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 1px #425176;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
+
 body{
     font-family: "Sora", sans-serif;
 

@@ -7,7 +7,7 @@ export const NavbarComponent = () => {
     return (
         <Navbar fluid={true} className="bg-[#7f87df]">
 
-            <Navbar.Container className="flex items-center justify-between">
+            <Navbar.Container className="flex items-center justify-between py-3">
                 <Navbar.Container className="flex items-center justify-between ">
                     <img src="https://i.ibb.co/GtbVMWL/Untitled-design-3-1.png" alt="" className="h-12 w-[110px]" />
 

@@ -8,7 +8,7 @@ const Header = () => {
         <div className=" mb-4">
             <div className="lg:flex gap-6 relative justify-center items-center">
                 <div className="space-y-3 lg:w-full lg:ml-7">
-                    <h1 className="text-center  text-2xl lg:text-start lg:text-4xl  font-extrabold capitalize bg-gradient-to-r from-orange-500 via-[#8188D9] to-green-400 bg-300% text-transparent bg-clip-text animate-gradient">find Your Vote <br /> Fulfill  your Aspirations <br />easily here</h1>
+                    <h1 className="text-center  text-2xl lg:text-start lg:text-4xl  font-extrabold capitalize text-[#425176] ">find Your Vote <br /> Fulfill <span className="font-outline-2 text-white font-bold font-sans">your Aspirations</span>  <br />easily here</h1>
                     <p className="text-[#626687]  text-center lg:text-start">Vote in our college elections. As heads, instructors, and class captains, <br /> we know its important. Lets shape our campus and beyond together. Your vote matters!</p>
                     <br />
                     <div className="flex justify-center lg:justify-start">
