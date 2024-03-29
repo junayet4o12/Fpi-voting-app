@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
-import  { NavbarComponent } from "../shareCompo/Navbar";
+import { NavbarComponent } from "../components/shareCompo/Navbar";
 const MainOutlet = () => {
     return (
-        <div>
+        <div className="container">
             <NavbarComponent></NavbarComponent>
             <Outlet></Outlet>
-            
+
         </div>
     );
 };
