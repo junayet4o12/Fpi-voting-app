@@ -6,7 +6,7 @@ import Blog from "../pages/Blog/Blog";
 import Election from "../pages/Election/Election";
 import VotingStep from "../pages/VotingStep/VotingStep";
 import Login from "../pages/Login/Login";
-import Register from "../pages/Register/Register";
+import RegisterPage from "../pages/Register/RegisterPage";
 
 const router = createBrowserRouter([
    {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
          },
          {
             path: '/register',
-            element: <Register />
+            element: <RegisterPage />
          }
    ]
    },
