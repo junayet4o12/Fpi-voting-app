@@ -2,10 +2,11 @@ import { Outlet } from "react-router-dom";
 import { NavbarComponent } from "../components/shareCompo/Navbar";
 const MainOutlet = () => {
     return (
-        <div className="container">
+        <div className="">
             <NavbarComponent></NavbarComponent>
-            <Outlet></Outlet>
-
+            <div className="md:container mx-auto">
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };
