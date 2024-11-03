@@ -56,6 +56,7 @@ const BlogPost = () => {
       },
     },
   ];
+  console.log(blogs);
 
   return (
     <div>
